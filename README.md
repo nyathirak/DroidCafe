@@ -1,69 +1,46 @@
-Android Developer Fundamentals (Version 2)
-==========================================
+# DroidCafe Mobile App
 
-This repository contains samples, starter code, and solutions for
-Version 2 of the Android Developer Fundamentals course (August 2018).
+Welcome to the DroidCafe Mobile App! This Java-based application allows users to register, join the cafe system, order cafe items, and checkout for delivery seamlessly. Below, you will find important information regarding the functionalities, setup, and usage of the app.
 
-Introduction
-------------
+## Features
 
-Each of the samples in this repository is associated with a practical
-exercise from the Android Developer Fundamentals course. While each
-sample stands and runs on its own, they are designed to be used
-together with the course.
+- **User Registration:** Users can register and create an account to access the cafe system.
+- **Join Cafe System:** Once registered, users can join the cafe system to explore menu items and place orders.
+- **Order Cafe Items:** Users can browse through the menu, select their desired cafe items, and place orders.
+- **Checkout for Delivery:** Users can choose delivery options and checkout to get their orders delivered.
 
-The Android Developer Fundamentals course is an instructor-led
-training experience and is targeted towards beginning Android
-developers with a background in software development or computer
-science.
+## Technologies Used
 
-Pre-requisites
---------------
+- Java: The entire application is built using Java, ensuring platform independence and robustness.
+- Android Development: The app is designed for mobile devices using Android development frameworks.
+- Database: Utilizes a database system to store user information, cafe menu, and order details.
 
-The samples, along with the course, assume basic competence in software
-design and development, as well as some background in computer science.
+## Setup Instructions
 
-Specifically, to get started you need:
+To set up the Cafe Mobile App on your system, follow these steps:
 
-- Familiarity with the general software development process for object-oriented
-applications using an IDE (Integrated Development Environment).
-- At least 1-3 years of experience with object-oriented programming and
-the Java programming language.
+1. **Clone the Repository:** Clone the repository to your local machine using the following command:
 
-For the more advanced samples, it helps to know about:
+   ```
+   git clone [https://github.com/your-repo/cafe-mobile-app.git](https://github.com/nyathirak/DroidCafe.git)
+   ```
 
-- SQLite databases and the SQLite query language.
-- Software architectural patterns that separate data from the user interface,
-such as MVP, MVC, or MVA.
-- Threading
+2. **Open Project in IDE:** Open the cloned project in your preferred Java IDE such as IntelliJ IDEA, Eclipse, or Android Studio.
 
-You don't need to know anything about Android to get started.
+3. **Set Up Dependencies:** Make sure all necessary dependencies are installed and configured in your IDE.
 
-Getting Started
----------------
+4. **Build and Run:** Build the project and run the application on an Android emulator or a physical Android device.
 
-1. [Install Android Studio](https://developer.android.com/studio/install.html),
-if you don't already have it.
-2. Download the sample.
-2. Import the sample into Android Studio.
-3. Build and run the sample.
+5. **Explore Features:** Once the app is running, explore the features including user registration, joining the cafe system, ordering cafe items, and checkout for delivery.
 
-License
--------
+## Usage
 
-Copyright 2018 Google, Inc.
+To use the DroidCafe Mobile App:
 
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
+1. **Register/Login:** If you are a new user, register by providing your details including name, email, and password. If you already have an account, simply log in with your credentials.
 
-  http://www.apache.org/licenses/LICENSE-2.0
+2. **Join Cafe System:** After logging in, join the cafe system to access the menu and place orders.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+3. **Order Cafe Items:** Browse through the menu, select your desired cafe items, and add them to your cart.
+
+4. **Checkout:** Proceed to checkout, choose delivery options, and complete the order.
